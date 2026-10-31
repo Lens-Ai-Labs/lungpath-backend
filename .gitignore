@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+lungpath.db
+*.sqlite3
+uploads/*
+!uploads/.gitkeep
+model/*
+!model/.gitkeep
+!model/best.pt
+!model/best.onnx
+training/lungpath_runs/
+.DS_Store
+.env
